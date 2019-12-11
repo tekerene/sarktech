@@ -1,0 +1,20 @@
+body {
+    min-height: 150hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorbtn {
+    padding: 0.25rem 0.5rem;
+    border: 3px solid #fefefe;
+    border-radius: 7px;
+    color: #fefefe;
+    background: rgba(0,0,0,0.7);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+}
+.colorbtn:hover {
+    background: rgb(0, 0, 0);
+}
