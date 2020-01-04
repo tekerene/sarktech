@@ -180,11 +180,11 @@ header nav ul a:hover {
     line-height: 24px;
     letter-spacing: 0.025em;
 }
-/* section intro area */
+
 .intro-block {
     position: relative;
     background: #f7f7f7;
-    margin: 50px 0px 0px; 
+    margin: 50px 0px 0px;
     padding: 70px 25px 40px;
     text-align: center;
 }
@@ -201,15 +201,15 @@ header nav ul a:hover {
     -o-transition: .6s ease;
     -ms-transition: .6s ease;
 }
- 
+
 .intro-icon,
 .intro-block {
     position: absolute;
     top: -31px;
-     left: 50%;
-     margin-left: -31px;
-   
-} 
+    left: 50%;
+    margin-left: -31px;
+
+}
 
 .intro-block .fa {
     width: 63px;
@@ -667,5 +667,142 @@ margin-bottom: 20px;
 }
 .contact-area .default-btn {
     padding: 16px;
+}
 
+
+/* for devices below 420 px of width size */
+
+@media(max-width:420px) {
+    header {
+    height: 180px;
+    line-height: 82px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+ul {
+    list-style: none;
+
+}
+
+ul li {
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+header nav {
+    float: right;
+    font-size: 10px;
+}
+.logo {
+
+    height: 110px;
+    width: 130px;
+}
+
+.logo img {
+    margin-top: 90px;
+}
+header nav ul a {
+    padding-right: 5px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.7s ease-in;
+}
+
+header nav ul a:hover {
+    text-decoration: none;
+    color: red;
+}
+}
+
+/* for devices above 420 px of width size */
+@media(min-width:420px) {
+    header {
+    height: 180px;
+    line-height: 82px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+ul {
+    list-style: none;
+
+}
+
+ul li {
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+header nav {
+    float: right;
+    font-size: 12px;
+}
+.logo {
+
+    height: 110px;
+    width: 130px;
+}
+
+.logo img {
+    margin-top: 90px;
+}
+header nav ul a {
+    padding-right: 5px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.7s ease-in;
+}
+
+header nav ul a:hover {
+    text-decoration: none;
+    color: red;
+}
+}
+
+/* for devices above 600px of width size e.g ipad  */
+@media(min-width:600px) {
+    header {
+    height: 140px;
+    line-height: 112px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+ul {
+    list-style: none;
+
+}
+
+ul li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+header nav {
+    float: right;
+    font-size: 18px;
+}
+.logo {
+    height: 130px;
+    width: 200px;
+     margin-right: 10px;
+}
+
+.logo img {
+    margin-top: 100px;
+   
+}
+header nav ul a {
+    padding-right: 10px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.7s ease-in;
+}
+
+header nav ul a:hover {
+    text-decoration: none;
+    color: red;
+}
 }
