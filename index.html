@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<title>building an interactive website</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,22 +20,56 @@
 </head>
 <body>
 	<!-- top header -->
-	<header>
+	<header class="header_area">
+		<div class="main_menu">
+			<!-- <div class="search_input" id="search_input_box">
+				<div class="container">
+					<form action="" class="d-flex justify-content-between">
+						<input type="text" class="form-control" id="search_input" placeholder="Search Here">
+						<button type="submit" class="btn"></button>
+						<span class="ti-close" id="close_search" title="Close Search"></span>
+					</form>
+				</div>
+			</div> -->
+
+
 		<div class="container">
 			<div class="row">
-				<a href=""><img class="logo" src="images/beautiful.jpg"></a>
-			<nav>
-				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">Work</a></li>
-					<li><a href="">Services</a></li>
-					<li><a href="">Client</a></li>
-					<li><a href="">Our Team</a></li>
-					 <li><a href="">Contact</a></li>
+				
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<a class="" href="index.html"><img class="logo" src="images/beautiful.jpg"></a>
 
+				<button 
+				class="navbar-toggler" 
+				type="button"
+				 data-toggle="collapse" 
+				 data-target="#navbarSupportedContent"
+				 aria-controls="navbarSupportedContent"
+				 aria-expanded="false"
+				 aria-label="Toggle navigation">
+
+				 <span class="icon-bar"></span>
+				 <span class="icon-bar"></span>
+				 <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+				<ul class="nav navbar-nav menu_nav ml-auto">
+					<li class="nav-item active"><a href="index.html">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Services</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Client</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Our Team</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Contact</a></li class="nav-item">
+					<li class="nav-item">
+						<a href="#" class="nav-link search" id="search">
+							<i class="ti-search"></i>
+						</a>
+					 </li>
 				</ul>
+				</div>
 			</nav>
 			</div>
+		</div>
 		</div>
 	</header>
 
