@@ -947,6 +947,17 @@ header nav ul a:hover {
     color: red;
 }
 }
+footer {
+background: deepskyblue;
+height: 115px;
+
+}
+.col {
+    padding: 30px;
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+}
 
 /* for devices above 420 px of width size */
 /* @media(min-width:420px) {
